@@ -10,18 +10,23 @@ import java.util.Scanner;
 public class NumeroMesPetit {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
         int num = 0;
         int count = 0;
-        int aux = Integer.MAX_VALUE;
+        int min = Integer.MAX_VALUE;
+        int max = 0;
         System.out.println("Donem 5 números: ");
-        while (count < 5) {
+        while (count < 10) {
             num = sc.nextInt();
-            if (aux > num) {
-                aux = num;
+            if (min > num) {
+                min = num;
+            }
+            if (max < num) {
+                max = num;
             }
             count++;
         }
-        System.out.println("El número més petit és: " + aux);
+        System.out.println("El número més petit és: " + min);
+        System.out.println("El número més gran és: " + max);
     }
 }
