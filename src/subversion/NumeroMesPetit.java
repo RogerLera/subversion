@@ -16,6 +16,7 @@ public class NumeroMesPetit {
         int min = Integer.MAX_VALUE;
         int max = 0;
         System.out.println("Donem 5 números: ");
+        // Bucle que es recorre 10 vegades.
         while (count < 10) {
             num = sc.nextInt();
             if (min > num) {
