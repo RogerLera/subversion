@@ -19,6 +19,7 @@ public class NumeroMesPetit {
         // Bucle que es recorre 10 vegades.
         while (count < 10) {
             num = sc.nextInt();
+            // Comprovem si el número rebut és més petit que el min.
             if (min > num) {
                 min = num;
             }
