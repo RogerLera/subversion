@@ -3,6 +3,7 @@ package subversion;
 import java.util.Scanner;
 
 /**
+ * Classe NumeroMesPetit, creada per projecte1.
  *
  * @author Roger Lera
  * @version Abril 2016
